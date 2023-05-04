@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    height: 100vh;
+    background-color: rgba(124, 114, 114, 0.411);
+    
+}
+header{
+    background: #1d1e20;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    color: white;
+    
+}
+
+a > img{
+    display: flex;
+    margin: 0px auto 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 999px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+    
+    
+}
+section > div {
+    flex: 1 1  100px;
+    margin: 10px 0px 0px 15px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+img{
+    max-width: 140px;
+    height: 200px;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+h2{
+    font-size: 18px;
+    
+}
+p{
+    max-width: 120px;
+}
+.livromarilia::after{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    content: "Disponivel";
+    text-align: center;
+}
+.livroquincas::after{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    content: "Indisponivel";
+    text-align: center;
+}
+.livroangustia::after{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    content: "Indisponivel";
+    text-align: center;
+}
+.livroalgumapoesia::after{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    content: "Indisponivel";
+    text-align: center;
+}
+.livromensagem::after{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    content: "Indisponivel";
+    text-align: center;
+}
+.livrocao::after{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    content: "Indisponivel";
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.212);
+}
