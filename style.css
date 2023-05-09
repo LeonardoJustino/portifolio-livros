@@ -19,18 +19,8 @@ header h1{
     
 }
 
-a > img{
-    display: flex;
-    margin: 0px auto 10px;
-    width: 70px;
-    height: 70px;
-    border-radius: 999px;
-    
-}
-a{
-    text-decoration: none;
-    color: white;
-}
+
+
 h1{
     text-align: center;
     margin: 20px;
@@ -63,45 +53,51 @@ h2{
 }
 p{
     max-width: 120px;
+    margin-bottom: 5px;
 }
 .livromarilia::after{
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     content: "Disponivel";
     text-align: center;
+    padding: 3px;
 }
 .livroquincas::after{
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     content: "Indisponivel";
     text-align: center;
+    padding: 3px;
 }
 .livroangustia::after{
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     content: "Indisponivel";
     text-align: center;
+    padding: 3px;
 }
 .livroalgumapoesia::after{
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     content: "Indisponivel";
     text-align: center;
+    padding: 3px;
 }
 .livromensagem::after{
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     content: "Indisponivel";
     text-align: center;
+    padding: 3px;
 }
 .livrocao::after{
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     content: "Indisponivel";
     text-align: center;
+    padding: 3px;
 }
 footer{
     text-align: center;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.212);
 }
+  
