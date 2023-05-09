@@ -6,8 +6,8 @@
 }
 body{
     height: 100vh;
+    width: 100vw;
     background-color: rgba(124, 114, 114, 0.411);
-    overflow: hidden;
     
 }
 div{
@@ -60,14 +60,7 @@ img{
     font-family: Arial;
     font-weight: bold;
 }
-.setavoltar{
-    display: flex;
-    position: relative;
-    top:-30px;
-    left: 45%;
-    width: 40px;
-    
-}
+
 
 @media (max-width: 700px) {
     .livromariliaconclusao{
@@ -108,43 +101,47 @@ img{
     left: -150px;
 }
   }
-@media (max-width: 560px) {
+@media (max-width: 600px) {
     .livromariliaconclusao{
         display: flex;
         flex-direction: column;
         
-        width: 100%;
-        height: 100vh;
-        
-       padding:20px;
+        width: 100vw;
+       
+    
         margin: 0px auto;
-       border:1px solid red;
+     
     }
     .boxtext{
         display: flex;
-        width: 500px;
-        margin: 0px auto; padding: 2px;
+        width:350px;
+        position: absolute;
+        top: 160px;
         text-align: justify;
+        margin: 0px auto;
+        
         
     }
     .biolivro{
         display: flex;
         position: relative;
-        top: 90px;
-        left: -300px;
+        
+       
         width: 200px;
         
         font-size: 12px;
-        
+        top: -100px;
+        left:30px;
     }
   
     img{
-    width: 130px;
-    height: 200px;
-    
-    margin: 0px auto 20px ;
+    width: 90px;
+    height: 110px;
     position: relative;
-    left: -150px;
+    top:10px;
+    left: -130px;
+   
+    
 }
   }
   audio {
