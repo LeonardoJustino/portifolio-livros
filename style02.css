@@ -79,7 +79,7 @@ img{
         
        padding:20px;
         margin: 0px auto;
-       border:1px solid purple;
+       
     }
     .boxtext{
         display: flex;
@@ -108,7 +108,7 @@ img{
     left: -150px;
 }
   }
-@media (max-width: 600px) {
+@media (max-width: 560px) {
     .livromariliaconclusao{
         display: flex;
         flex-direction: column;
