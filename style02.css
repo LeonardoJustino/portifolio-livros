@@ -64,23 +64,14 @@ img{
     font-weight: bold;
 }
 .bioAssis{
-    margin:60px auto;
-   
-    padding: 5px;
-}
-.bioAssisContent {
     display: flex;
-    
-    flex-direction: row;
-    margin:0px auto;
-    align-items: center;
-   
-    
-}
-.bioAssisContent p{
-    width: 500px;
+    margin: 30px auto;
     text-align: justify;
-    padding: 10px;
+    width: 500px;
+}
+.bioAssis h2{
+font-size: 20px;
+padding:5px;
 }
 @media (max-width: 700px) {
     .livromariliaconclusao{
@@ -161,25 +152,8 @@ img{
     top:10px;
     left: -130px;
     }
-    .bioAssis{
-        position:relative;
-        top: 700px;
-        left: -100px;
-        padding: 5px;
-        margin: 0px auto;
-
-    }
-    .bioAssisContent {
-        text-align: center;
-       
-        
-    }
-    .bioAssisContent p{
-        width: 350px;
-        text-align: justify;
-        padding: 10px;
-    }
-  
+   
+    
 }
   
   audio {
