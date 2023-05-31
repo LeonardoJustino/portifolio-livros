@@ -54,20 +54,19 @@ img{
     text-align: justify;
     
 }
+.bioAssis h1{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
 .bioAssis main{
     display: flex;
-   align-items: center;
-
-}
-.bioAssis h1{
-    display: flex;
-    margin: 30px auto;
-}
-.bioAssis{
-display:flex;
-margin: 0px auto;
-text-align: justify;
-width: 500px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: justify;
+    width: 340px;
 }
 
 .audioresumo{
@@ -91,6 +90,7 @@ width: 500px;
         margin: 0px auto;
        
     }
+
     .boxtext{
         display: flex;
         width: 500px;
@@ -139,7 +139,18 @@ width: 500px;
         
         
     }
-    .biolivro{
+    .bioAssis main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto;
+        
+        text-align: justify;
+        width: 340px;
+    }
+ 
+    
+        .biolivro{
         display: flex;
         position: relative;
         
