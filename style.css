@@ -65,7 +65,7 @@ p{
 .livroquincas::after{
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    content: "Indisponivel";
+    content: "Disponivel";
     text-align: center;
     padding: 3px;
 }

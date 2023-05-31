@@ -6,7 +6,7 @@
 }
 body{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgba(124, 114, 114, 0.411);
     
 }
@@ -42,7 +42,9 @@ img{
     width: 200px;
     margin-left:30px;
     font-size: 16px;
-   
+   position: absolute;
+   bottom: 0px;
+  
 }
 .boxtext{
     display: flex;
@@ -52,6 +54,7 @@ img{
     text-align: justify;
     
 }
+
 .audioresumo{
     padding: 10px;
     margin-top: 15px;
@@ -60,8 +63,25 @@ img{
     font-family: Arial;
     font-weight: bold;
 }
-
-
+.bioAssis{
+    margin:60px auto;
+   
+    padding: 5px;
+}
+.bioAssisContent {
+    display: flex;
+    
+    flex-direction: row;
+    margin:0px auto;
+    align-items: center;
+   
+    
+}
+.bioAssisContent p{
+    width: 500px;
+    text-align: justify;
+    padding: 10px;
+}
 @media (max-width: 700px) {
     .livromariliaconclusao{
         display: flex;
