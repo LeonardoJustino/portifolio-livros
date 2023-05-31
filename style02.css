@@ -54,6 +54,21 @@ img{
     text-align: justify;
     
 }
+.bioAssis main{
+    display: flex;
+   align-items: center;
+
+}
+.bioAssis h1{
+    display: flex;
+    margin: 30px auto;
+}
+.bioAssis{
+display:flex;
+margin: 0px auto;
+text-align: justify;
+width: 500px;
+}
 
 .audioresumo{
     padding: 10px;
@@ -63,16 +78,7 @@ img{
     font-family: Arial;
     font-weight: bold;
 }
-.bioAssis{
-    display: flex;
-    margin: 30px auto;
-    text-align: justify;
-    width: 500px;
-}
-.bioAssis h2{
-font-size: 20px;
-padding:5px;
-}
+
 @media (max-width: 700px) {
     .livromariliaconclusao{
         display: flex;
